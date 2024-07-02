@@ -1,10 +1,12 @@
 # Introduction - powerbi-admin-scripts
-PowerShell scripts that allow for easily completing Power BI admin activities
+PowerShell scripts that allow for easily completing Power BI admin activities, including
+creating Azure DevOps pipelines
 
 # Getting Started
 1.	PowerShell Modules Needed for scripts to work
 	a.  MicrosoftPowerBIMgmt
 	b.  Az (Azure)
+	c.  Fabric
 
 # Scripts
 1.	GetGatewayDatasources.ps1 - this script will allow you to list the datasources of a
