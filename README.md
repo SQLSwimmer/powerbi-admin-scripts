@@ -4,9 +4,9 @@ creating Azure DevOps pipelines
 
 # Getting Started
 1.	PowerShell Modules Needed for scripts to work
-	a.  MicrosoftPowerBIMgmt
-	b.  Az (Azure)
-	c.  FabricPS-pbip - https://github.com/microsoft/Analysis-Services/tree/master/pbidevmode
+	- MicrosoftPowerBIMgmt
+	- Az (Azure)
+	- FabricPS-pbip - https://github.com/microsoft/Analysis-Services/tree/master/pbidevmode
 
 # General Scripts
 1.	GetGatewayDatasources.ps1 - this script will allow you to list the datasources of a given data gateway
