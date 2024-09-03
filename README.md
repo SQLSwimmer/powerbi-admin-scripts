@@ -33,7 +33,7 @@ These scripts rely on some variables that should be created in variable group:
 - **TenantId** - TenantId for Power BI/Entra (fka, Azure Active Directory) - This code assumes you have stored this as a secret variables, so you will need to map it to environment variable in the release pipeline called MY_MAPPED_TENANTID
 
 ## Scripts
-1.	Buid PBIP Payloads in Azure DevOps.ps1 - this script will build a payload of files (based on the files that have changed between the current commit and previous commit) needed to deploy Power BI Projects (PBIP) and will put them in drop location to be consumed by a release pipeline
+1.	Build PBIP Payloads in Azure DevOps.ps1 - this script will build a payload of files (based on the files that have changed between the current commit and previous commit) needed to deploy Power BI Projects (PBIP) and will put them in drop location to be consumed by a release pipeline
 
 2.	Deploy PBIP files in Azure DevOps from Build Pipeline.ps1 - this script will pick up the files from the drop location created in Buid PBIP Payloads in Azure DevOps.ps1 and will use the Fabric PowerShell command-lets to deploy the payload(s)
 
